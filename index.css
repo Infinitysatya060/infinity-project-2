@@ -1,0 +1,109 @@
+body{
+    background-color: white;
+
+}
+.container{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.box1{
+   
+   height: 75vh;
+   width: 20vw;
+   float: left;
+   background-color: rgb(201, 134, 11);
+  }
+  .box2{
+    height: 75vh;
+    width: 20vw;
+   float: left;
+   background-color: rgba(5, 79, 129, 0.829);
+  }
+  .box3{
+    
+    height: 75vh;
+    width: 20vw;
+   float: left;
+   background-color: rgb(1, 32, 32);
+  }
+  .logo1{
+    position: relative;
+    top: 6%;
+    left: 5%;
+  }
+  .logo2{
+    position: relative;
+    top: 6%;
+    left: 5%;
+  }
+  .logo3{
+    position: relative;
+    top: 6%;
+    left: 5%;
+  }
+  .name{
+    color:white ;
+    position: relative;
+    top: 7%;
+    left: 7%;
+    font-size: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .text{
+    line-height: 20px;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    color: rgb(206, 191, 191);
+    
+   
+
+  }
+  .btn{
+    position: relative;
+    top: 20%;
+    left: 10%;
+    height: 10%;
+    width: 56%;
+    border: none;
+    border-radius: 25px;
+  }
+  .btn:hover{
+    color: blue;
+    cursor: pointer;
+  }
+  /* responsive */
+  @media screen and (max-width:990px){
+    .box1{
+        float: none;
+        width: 29vw;
+        height: 90vh;
+    }
+    .box2{
+        float: none;
+        width: 29vw;
+        height: 90vh;
+        justify-content: space-around;
+    }
+    .box3{
+        float: none;
+        width: 29vw;
+        height: 90vh;
+    }
+    .container{
+        position: absolute;
+    top: 2%;
+    left: 40%;
+ 
+   
+    }
+    .text{
+        line-height: 20px;
+        position: relative;
+        top: 5%;
+        left: 10%;
+        color: rgb(206, 191, 191);
+        
+    }
+  }
